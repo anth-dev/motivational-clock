@@ -42,10 +42,16 @@ function changeMessage() {
     }
 }
 
+function changeGlow() {
+    document.documentElement.style.setProperty('--glow', this.value);
+}
+
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
 const message = document.querySelector('p');
+const glowInput = document.getElementById('glow');
 
 setInterval(setDate, 1000);
 changeMessage();
+glowInput.addEventListener('change', changeGlow);
