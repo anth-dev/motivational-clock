@@ -139,4 +139,5 @@ label {
     font-family: 'Clicker Script', cursive;
     font-weight: bold;
     font-size: 1.5em;
+    text-shadow: var(--glow) 0px 0px 5px;
 }
