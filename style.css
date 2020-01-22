@@ -126,3 +126,13 @@ body {
     padding: .75em;
     text-shadow: cornflowerblue 0px 0px 5px;
 }
+
+.controls {
+    padding-top: 3em;
+}
+
+label {
+    font-family: 'Clicker Script', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}
