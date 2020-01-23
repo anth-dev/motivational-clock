@@ -54,7 +54,7 @@ table {
 }
 
 html {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(12, 12, 12);
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
@@ -73,7 +73,7 @@ body {
 .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid black;
+    border: 20px solid rgba(255, 255, 255, .25);
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
@@ -123,7 +123,8 @@ body {
     font-size: 3em;
     font-weight: bold;
     border-style: solid;
-    border-color: black;
+    border-color: rgba(255, 255, 255, .25);
+    color: rgba(255, 255, 255, .25);
     box-shadow: 0px 0px 5px 2px var(--glow);
     border-width: 5px;
     border-radius: 20px;
@@ -144,4 +145,5 @@ label {
     font-family: 'EB Garamond', serif;
     font-size: 1.5em;
     text-shadow: var(--glow) 0px 0px 5px;
+    color: rgba(255, 255, 255, .25)
 }
