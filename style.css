@@ -94,7 +94,7 @@ body {
 
 .hand {
     height: 6px;
-    background: black;
+    background: var(--glow);
     position: absolute;
     top: 50%;
     transform-origin: 100%;
@@ -105,18 +105,15 @@ body {
 
 .second-hand {
     width: 50%;
-    box-shadow: 0px 0px 5px 2px var(--glow);
 }
 
 .min-hand {
     width: 50%;
-    box-shadow: 0px 0px 5px 2px var(--glow);
 }
 
 .hour-hand {
     width: 35%;
     left: 15%;
-    box-shadow: 0px 0px 5px 2px var(--glow);
 }
 
 .message {
