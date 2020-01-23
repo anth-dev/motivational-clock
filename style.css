@@ -138,6 +138,11 @@ body {
     padding-top: 3.5em;
 }
 
+input#glow {
+    background-color: black;
+    border-color: black;
+}
+
 label {
     font-family: 'EB Garamond', serif;
     font-size: 1.5em;
