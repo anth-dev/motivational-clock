@@ -147,3 +147,10 @@ label {
     font-size: 3em;
     text-shadow: var(--glow) 0px 0px 5px;
 }
+
+@media only screen and (min-width: 600px) {
+    .clock {
+        width: 20em;
+        height: 20em;
+    }
+}
