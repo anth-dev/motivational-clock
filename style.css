@@ -75,7 +75,8 @@ body {
     height: 15em;
     border: 20px solid #171717;
     border-radius: 50%;
-    margin: auto;
+    margin: auto auto;
+    margin-top: 4em;
     position: relative;
     padding: 2rem;
     box-shadow:
@@ -148,8 +149,26 @@ label {
     text-shadow: var(--glow) 0px 0px 5px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     .clock {
+        height: 17em;
+        width: 17em;
+        margin-top: 4em;
+    }
+}
 
+@media only screen and (min-width: 1400px) {
+    .clock {
+        height: 20em;
+        width: 20em;
+        margin-top: 4em;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .clock {
+        height: 23em;
+        width: 23em;
+        margin-top: 4em;
     }
 }
