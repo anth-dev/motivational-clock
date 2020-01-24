@@ -71,8 +71,8 @@ body {
 }
 
 .clock {
-    width: 40rem;
-    height: 40rem;
+    width: 40em;
+    height: 40em;
     border: 20px solid #171717;
     border-radius: 50%;
     margin: auto auto;
