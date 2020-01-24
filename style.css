@@ -71,11 +71,11 @@ body {
 }
 
 .clock {
-    width: 40em;
-    height: 40em;
+    width: 15em;
+    height: 15em;
     border: 20px solid #171717;
     border-radius: 50%;
-    margin: auto auto;
+    margin: auto;
     position: relative;
     padding: 2rem;
     box-shadow:
@@ -150,8 +150,6 @@ label {
 
 @media only screen and (min-width: 600px) {
     .clock {
-        width: 15em;
-        height: 15em;
-        margin-top: 5em;
+
     }
 }
