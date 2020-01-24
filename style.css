@@ -150,7 +150,8 @@ label {
 
 @media only screen and (min-width: 600px) {
     .clock {
-        width: 20em;
-        height: 20em;
+        width: 15em;
+        height: 15em;
+        margin-top: 5em;
     }
 }
