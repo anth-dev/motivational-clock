@@ -182,8 +182,7 @@ label {
 
 @media only screen and (orientation: portrait) {
     .clock {
-        height: 40em;
-        width: 40em;
-        margin-top: auto;
+        height: 25em;
+        width: 25em;
     }
 }
