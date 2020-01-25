@@ -115,6 +115,7 @@ body {
 
 .message {
     position: relative;
+    margin-bottom: auto;
     top: .5em;
     font-family: 'Clicker Script', cursive;
     font-size: 4em;
@@ -181,8 +182,8 @@ label {
 
 @media only screen and (orientation: portrait) {
     .clock {
-        height: 27em;
-        width: 27em;
+        height: 40em;
+        width: 40em;
         margin-top: auto;
     }
 }
