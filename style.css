@@ -71,6 +71,7 @@ body {
 }
 
 .clock {
+    margin-top: auto;
     border: 20px solid #171717;
     border-radius: 50%;
     position: relative;
