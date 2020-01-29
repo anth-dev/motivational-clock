@@ -115,7 +115,7 @@ body {
 
 .message {
     position: relative;
-    margin-bottom: auto;
+    margin-bottom: 1em;
     top: .5em;
     font-family: 'Clicker Script', cursive;
     font-size: 4em;
